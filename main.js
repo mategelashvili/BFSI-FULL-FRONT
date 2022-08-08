@@ -193,7 +193,7 @@ cardperson4.addEventListener("click",function(){
   let clicktext=document.createElement("p")
   clicktext.classList.add("clicktext")
   clickdiv.appendChild(clicktext)
-  photo.setAttribute("src", "./images/oval.png")
+  photo.setAttribute("src", "./images/Oval.png")
   clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi per. Sed wisi persius ut, veri novum eu eos, nam ne facer elaboraret."
 })
 
