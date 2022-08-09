@@ -1,0 +1,237 @@
+@media (max-width: 1024px) {
+    .navigation {
+      font-size: 20px;
+    }
+    .BFSI {
+      margin-left: 10%;
+    }
+    .acaunt {
+      height: 30vh;
+    }
+    .btnall {
+      width: 15%;
+      font-size: 14px;
+    }
+    .btnblock {
+      width: 20%;
+      font-size: 14px;
+    }
+    .btnfint {
+      font-size: 14px;
+    }
+    .btnneoba {
+      font-size: 14px;
+    }
+    .btnal {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 720px) {
+    .navigation {
+      font-size: 16px;
+      width: 60%;
+      justify-content: space-evenly;
+    }
+   .inpuT{
+      width: 50px;
+   }
+   .input{
+      width: 100px;
+   }
+    .acaunt {
+      height: 40vh;
+    }
+    .acaunth2 {
+      font-size: 20px;
+    }
+    .inputname {
+      font-size: 12px;
+    }
+    .inputemail {
+      font-size: 12px;
+    }
+    .acauntbtn {
+      height: 10%;
+    }
+    .fgps {
+      font-size: 10px;
+    }
+    .wrongpasword {
+      font-size: 10px;
+    }
+    .linkpassword {
+      font-size: 8px;
+    }
+    .div2_h2 {
+      font-size: 18px;
+    }
+    .div2_p {
+      font-size: 14px;
+    }
+    .firstext {
+      font-size: 30px;
+    }
+    .secondtext {
+      font-size: 10px;
+    }
+    .cardimgss {
+      width: 70px;
+    }
+    .cardperson {
+      font-size: 12px;
+    }
+    .cardperson2 {
+      font-size: 12px;
+    }
+    .cardperson3 {
+      font-size: 12px;
+    }
+    .cardperson4 {
+      font-size: 12px;
+    }
+    .cardprofesion {
+      font-size: 8px;
+    }
+    .cardicons {
+      width: 10px;
+    }
+    .cardtext {
+      width: 300px;
+    }
+    .box_text_h2 {
+      font-size: 18px;
+    }
+    .box_p {
+      font-size: 12px;
+    }
+    .sect_4_title_h2 {
+      font-size: 30px;
+    }
+    .sect_4_title_p {
+      font-size: 10px;
+    }
+    .btnall {
+      font-size: 10px;
+    }
+    .btnblock {
+      font-size: 10px;
+    }
+    .btnfint {
+      font-size: 10px;
+    }
+    .btnneoba {
+      font-size: 10px;
+    }
+    .btnal {
+      font-size: 10px;
+    }
+    .firstcardbtn{
+      font-size: 12px;
+    }
+    .footerfristdiv{
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 520px) {
+      .navigation{display: none;}
+      .burger{display: flex;}
+      .BFSI{
+          margin-left: 10%;
+      }
+      .inpuT{
+          margin-left: 22%;
+      }
+      .acaunt{
+          width: 35%;
+          height: 40vh;
+      }
+      .acaunth2{
+          font-size: 16px;
+      }
+      .div2_h2{
+          font-size: 16px;
+      }
+  
+      .div2_p{
+          font-size: 10px;
+         
+      }
+      .secondtext{
+          font-size: 12px;
+          display: none;
+      }
+      .firstext{
+          width: 100%;
+      }
+      .card_div{
+          justify-content: space-between;
+      }
+      .card_div2{
+          justify-content: space-between;
+      }
+      .cardtext{
+          width: 80%;
+      }
+      .cardperson{
+          font-size: 10px;
+      }
+      .cardperson2{
+          font-size: 10px;
+      }
+      .cardperson3{
+          font-size: 10px;
+      }
+      .cardperson4{
+          font-size: 10px;
+      }
+      .cardimgss{
+          width: 50px;
+      }
+     .cardicons{
+      display: none;
+     }
+     .clicktext{
+      font-size: 14px;
+     }
+     .maptext{
+     display: none;
+     }
+    .mapname{
+      display: none;
+    }
+  
+    .mapphoto{
+      width: 100%;
+      border-radius: 0;
+    margin-left: 20%;
+    }
+    .btnall{
+      width: 50%;
+    }
+    .btnblock{
+      width: 50%;
+    }
+    .btnfint{
+      width: 50%;
+    }
+    .btnneoba{
+      width: 50%;
+    }
+    .btnal{width: 50%;}
+    .sectionfive_texdiv_h2{
+      font-size: 35px;
+    }
+    .firstcardh2{
+      font-size: 18px;
+    }
+    .firstcardbtn{
+      font-size: 10px;
+      width: 40%;
+    }
+    .hidendiv{
+      font-size: 14px;
+    }
+    .firstcard{
+      width: 30%;
+    }
+  }

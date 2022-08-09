@@ -151,7 +151,7 @@ cardperson.addEventListener("click",function(){
   clicktext.classList.add("clicktext")
   clickdiv.appendChild(clicktext)
   photo.setAttribute("src", "./images/moica.png")
-  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi per. Sed wisi persius ut, veri novum eu eos, nam ne facer elaboraret."
+  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem  ."
 })
 cardperson2.addEventListener("click",function(){
   secondsection_image.style.display="none"
@@ -165,7 +165,7 @@ cardperson2.addEventListener("click",function(){
   clicktext.classList.add("clicktext")
   clickdiv.appendChild(clicktext)
   photo.setAttribute("src", "./images/sebas.png")
-  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi per. Sed wisi persius ut, veri novum eu eos, nam ne facer elaboraret."
+  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem  "
 })
 cardperson3.addEventListener("click",function(){
 
@@ -180,7 +180,7 @@ cardperson3.addEventListener("click",function(){
   clicktext.classList.add("clicktext")
   clickdiv.appendChild(clicktext)
   photo.setAttribute("src", "./images/garh.png")
-  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi per. Sed wisi persius ut, veri novum eu eos, nam ne facer elaboraret."
+  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem "
 })
 cardperson4.addEventListener("click",function(){
   secondsection_image.style.display="none"
@@ -194,7 +194,7 @@ cardperson4.addEventListener("click",function(){
   clicktext.classList.add("clicktext")
   clickdiv.appendChild(clicktext)
   photo.setAttribute("src", "./images/Oval.png")
-  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at quis corrumpit. At facilisi per. Sed wisi persius ut, veri novum eu eos, nam ne facer elaboraret."
+  clicktext.innerHTML=" Dicta omnes ius ut, ei atomorum voluptatum definitionem"
 })
 
 //მესამე სექცია
@@ -464,23 +464,55 @@ p42.innerHTML="Mei mazim"
 p52.innerHTML="Feugait electram"
 p62.innerHTML="$24"
 
+let counter=0
 firstcard.addEventListener("click",function(){
   
-  firstcard.style.height="90%"
-    
+  if(counter==0){
+      firstcard.style.height="90%"
+      firstcard.style.transition="0.5s"
+counter+=1
+      hidendiv1.style.display="flex"
+    }
+    else{
+      firstcard.style.transition="0.5s"
+      hidendiv1.style.display="none"
+      firstcard.style.height="30%"
+      counter-=1
+    }
     
  
-    hidendiv1.style.display="block"
-  
+   
   
   
 
 })
+let counter2=0
 secondcard.addEventListener("click",function(){
-  secondcard.style.height="90%"
-  hidendiv.style.display="block"
+  if(counter2==0){
+    secondcard.style.height="90%"
+    secondcard.style.transition="0.5s"
+counter2+=1
+    hidendiv.style.display="flex"
+  }
+  else{
+    secondcard.style.transition="0.5s"
+    hidendiv.style.display="none"
+    secondcard.style.height="30%"
+    counter2-=1
+  }
 })
+let counter3=0
 therdcard.addEventListener("click",function(){
-  therdcard.style.height="90%"
-  hidendiv2.style.display="block"
+  if(counter3==0){
+    therdcard.style.height="90%"
+    therdcard.style.transition="0.5s"
+counter3+=1
+    hidendiv2.style.display="flex"
+  }
+  else{
+    therdcard.style.transition="0.5s"
+    hidendiv2.style.display="none"
+    therdcard.style.height="30%"
+    counter3-=1
+  }
 })
