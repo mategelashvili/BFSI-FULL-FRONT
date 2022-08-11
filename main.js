@@ -465,7 +465,7 @@ p52.innerHTML="Feugait electram"
 p62.innerHTML="$24"
 
 let counter=0
-firstcard.addEventListener("click",function(){
+firstcardbtn.addEventListener("click",function(){
   
   if(counter==0){
       firstcard.style.height="90%"
@@ -479,7 +479,12 @@ counter+=1
       firstcard.style.height="30%"
       counter-=1
     }
-    
+    if(counter==1){
+      firstcardbtn.innerHTML="less"
+    }
+    else{
+      firstcardbtn.innerHTML="More"
+    }
  
    
   
@@ -487,7 +492,7 @@ counter+=1
 
 })
 let counter2=0
-secondcard.addEventListener("click",function(){
+secondcardbtn.addEventListener("click",function(){
   if(counter2==0){
     secondcard.style.height="90%"
     secondcard.style.transition="0.5s"
@@ -500,9 +505,17 @@ counter2+=1
     secondcard.style.height="30%"
     counter2-=1
   }
+  if(counter2==1){
+    secondcardbtn.innerHTML="less"
+  }
+  else{
+    secondcardbtn.innerHTML="More"
+  }
+  
+ 
 })
 let counter3=0
-therdcard.addEventListener("click",function(){
+therdcardbtn.addEventListener("click",function(){
   if(counter3==0){
     therdcard.style.height="90%"
     therdcard.style.transition="0.5s"
@@ -515,4 +528,11 @@ counter3+=1
     therdcard.style.height="30%"
     counter3-=1
   }
+  if(counter3==1){
+    therdcardbtn.innerHTML="less"
+  }
+  else{
+    therdcardbtn.innerHTML="More"
+  }
+  
 })
