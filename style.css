@@ -112,8 +112,9 @@ header {
   0% {
     background-image: url("./images/back.png");
   }
+  
   50% {
-    background-image: url("../images/back2.jpg");
+    background-image: url("./images/back2.jpg");
   }
   100% {
     background-image: url("./images/bulding.jpeg");

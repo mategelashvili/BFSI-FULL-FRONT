@@ -77,6 +77,12 @@
     .cardimgss {
       width: 70px;
     }
+    .maptext{
+      display: none;
+    }
+    .mapphoto{
+      width: 50px;
+    }
     .cardperson {
       font-size: 12px;
     }

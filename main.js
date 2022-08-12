@@ -141,6 +141,7 @@ secondsection_photo.appendChild(secondsection_image)
 
 cardperson.addEventListener("click",function(){
   secondsection_image.style.display="none"
+  
   let clickdiv=document.createElement("div")
   clickdiv.classList.add("clickdiv")
   secondsection_photo.appendChild(clickdiv)
